@@ -7,7 +7,7 @@ The Body Class and Its Constructor
  import java.lang.Math;
 
  public class Body {
-    // 6 instance variables
+
     public double xxPos;
     public double yyPos;
     public double xxVel;
@@ -15,7 +15,6 @@ The Body Class and Its Constructor
     public double mass;
     public String imgFileName;
 
-    // two constructors
     public Body(double xP, double yP, double xV,
             double yV, double m, String img){
                 xxPos = xP;
@@ -36,7 +35,7 @@ The Body Class and Its Constructor
         imgFileName = b.imgFileName;
 
     }
-    // instance methods
+
     public double calcDistance(Body c){
         double xxPos_c;
         double yyPos_c;
