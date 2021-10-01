@@ -23,18 +23,21 @@ The Body class represents a celestial planet object, which is the core of the pr
   -  `xxVel` `yyVel` - the two-dimensional velocity of the body, together the form a velocity vector.
   -  `mass` - the mass of the body.
   -  `imgFileName` - the path of the corresponding image.
-  
+
+### Why it works?
 The animation is formed by keep updating the status of all bodies in the universe, using StdDraw library. The key part is to make our update works correctly according to Newton's law.
-The `update` method is fulfilled by the methods below, which calculated the distance and force of this body and others.
+- The `update` method is fulfilled by the methods below, which calculated the distance and force of this body and others.
   - `calcDistance`
   - `calcForceExertedBy`
   - `calcForceExertedByX`
   - `calcForceExertedByY`
   - `calcNetForceExertedByX`
   - `calcNetForceExertedByY`
-Then `update` will get the result of force as argument to update the instance variables of body object.
+- After the calculation, `update` will get the result of force as argument to update the instance variables of body object.
 
 
 
 ### Acknowlegement
+Adapted from Project0: NBody of UCB CS61B-Data Structures course, taught by Josh Hug.
+My solutions for other projects, labs and homeworks of this course can be found at [CS61B_20Fall_Assignments](https://github.com/qcwssss/CS61B_20Fall). 
 
