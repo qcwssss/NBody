@@ -1,5 +1,7 @@
 # NBody
-Animating simulation of celestial movement
+Animating simulation of celestial movement using standDraw library.
+
+<img width="385" alt="planets" src="https://user-images.githubusercontent.com/83999326/135667454-e09f0b48-cb90-457c-8649-f3ca11e788a4.png">
 
 ## Description
 - NBody is an animating simulator of celestial movement which allows users to input multiple planetary parameters via a text file to generate an animation of planetary movements based on Newton’s law of universal gravitation.
@@ -14,6 +16,13 @@ To animating the simulation of celestial movement, run NBody class with command 
     1. *the number of bodies*
     2. *the radius of the universe*
     3. *the position, velocity, mass and image path* 
+
+
+
+*Through this simulator, we can also generate some very intersting animations like the images below.*
+
+<img width="385" alt="dance10" src="https://user-images.githubusercontent.com/83999326/135667451-e715ecbb-69d9-4a7b-a660-b5520409c1b9.png">
+<img width="385" alt="antimatter" src="https://user-images.githubusercontent.com/83999326/135667455-56afe730-322b-4d4e-9aab-d8b48455f30f.png">
 
 ## Classes and Algorithms
 ### Body
