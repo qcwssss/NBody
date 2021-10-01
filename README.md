@@ -15,6 +15,25 @@ To animating the simulation of celestial movement, run NBody class with command 
     2. *the radius of the universe*
     3. *the position, velocity, mass and image path* 
 
+## Classes and Algorithms
+### Body
+The Body class represents a celestial planet object, which is the core of the project. Its instances variables consists of all key information for simulating celestial movement.
+* Instance Variables
+  -  `xxPos` `yyPos` - the two-dimensional coordinate of the body.
+  -  `xxVel` `yyVel` - the two-dimensional velocity of the body, together the form a velocity vector.
+  -  `mass` - the mass of the body.
+  -  `imgFileName` - the path of the corresponding image.
+  
+The animation is formed by keep updating the status of all bodies in the universe, using StdDraw library. The key part is to make our update works correctly according to Newton's law.
+The `update` method is fulfilled by the methods below, which calculated the distance and force of this body and others.
+  - `calcDistance`
+  - `calcForceExertedBy`
+  - `calcForceExertedByX`
+  - `calcForceExertedByY`
+  - `calcNetForceExertedByX`
+  - `calcNetForceExertedByY`
+Then `update` will get the result of force as argument to update the instance variables of body object.
+
 
 
 ### Acknowlegement
